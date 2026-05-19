@@ -1,0 +1,28 @@
+npm init playwright this will genrate skeleton for your project
+
+we have to install node.js before entering the above command
+
+package.json file is more important it will contains all playwright dependent libraries.
+
+all the playwright related jars will be stored in node_modules file.
+
+All the configurations of tests will be configured on playwright.config.js file
+
+Impoirtance of playwright.config.js
+
+npx playwright test  this command will runner test runner file which is playwright.config.js
+
+npx playwright test --headed this commnd will run all the cases in headed mode
+npx playwright test --ui
+
+It starts Playwright Test UI Mode, which gives you a visual interface in the browser to:
+✅ See all test files and test cases
+✅ Run tests one by one or in groups
+✅ Watch tests execute step‑by‑step
+✅ View screenshots, videos, and traces
+✅ Debug failed tests very easily
+✅ Re‑run tests without restarting the command
+
+to verify the traces we need to upload traces zip file to traces.playwright.dev
+for codegen.inspector command is npx plawright codegen url
+for debugging npx playwright test file name --dubug
