@@ -56,5 +56,25 @@ console.log(new_even);
 let mappedArray = new_even.map(score => score * 3);
 console.log(mappedArray);
 
-let sm_  = mappedArray.reduce((total, t) => total+t, 0);
+let sm_  = mappedArray.reduce((total, t) => total+t, 0); // here total and t are two variables 0 is the initial value of total, t is element for each iterartion in the array
 console.log(sm_);
+
+let fruits = ['Apple', 'Guava','Pineapple', 'Grapes', 'kiwi', 'litchi']
+
+fruits.sort()
+console.log(fruits)
+console.log(fruits.reverse());
+
+// the sort method is used sort string elements in array if we use this for numbers it will not work 
+
+var scrs = [12, 3, 17, 13, 9 ]
+console.log(scrs.sort()) //this will not sort the elemnts in ascending order
+
+
+// to overcome this we need send a anonymous function sort method
+
+scrs.sort(function(a,b){ // minimum difference element will push to (need to work on bubble sorting )
+    return a - b
+})
+console.log("=" * 60);
+console.log(scrs);
