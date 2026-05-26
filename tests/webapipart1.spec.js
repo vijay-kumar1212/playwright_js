@@ -1,5 +1,5 @@
 const {test, expect, request} = require('@playwright/test');
-
+const {ApiUtils} = require('./utils/ApiUtils')
 
 const loginPayload = { 
    userEmail:"hv5217958@gmail.com",
@@ -13,30 +13,16 @@ const order_payload = {orders:[{
 }]};
 
 
-let token;
-let orderId;
+let response;
 test.beforeAll( async ()=>
 {
-   const api_context = await request.newContext();
-   const login_response = await api_context.post('https://rahulshettyacademy.com/api/ecom/auth/login',
-      {
-         data:loginPayload
-      });
-   expect(login_response.ok()).toBeTruthy();
-   const loginRespJson = await login_response.json();
-   token = loginRespJson.token;
-   console.log(token);
-
-   const order_response = await api_context.post("https://rahulshettyacademy.com/api/ecom/order/create-order", {
-      data: order_payload,
-      headers:{
-         'Authorization':token,
-         'Content-Type':"application/json"},
-   });
-   const orderResponseJson = await order_response.json();
-   orderId = await orderResponseJson.orders[0];
-   console.log(orderId);
+const apiContext = await request.newContext();
+const apiutils = new ApiUtils(apiContext, loginPayload);
+response  = await apiutils.createOrder(order_payload);   
 });
+
+
+
 
 test.beforeEach( ()=>
 {
@@ -48,11 +34,9 @@ test('@Webst Client App login', async ({ page }) => {
    
    await page.addInitScript(value => {
       window.localStorage.setItem('token', value);
-   }, token);
-   //js file- Login js, DashboardPage
-   const email = "anshika@gmail.com";
-   const productName = 'ZARA COAT 3';
-   const products = page.locator(".card-body");
+   }, response.token);
+   
+   
    await page.goto("https://rahulshettyacademy.com/client");
    await page.locator("button[routerlink*='myorders']").click();
    await page.locator("tbody").waitFor();
@@ -63,13 +47,15 @@ test('@Webst Client App login', async ({ page }) => {
    {
    const od_id = await rows.nth(i).locator("th").textContent();
    console.log(od_id);
-   if(orderId.includes(od_id))
+   if(response.orderId.includes(od_id))
    {
       console.log('Match Found')
       rows.nth(i).locator('button').first().click();
       break;
    }
    }
+   const orderIdDetails = await page.locator('.col-text').textContent();
    await page.pause();
+   expect(response.orderId.includes(orderIdDetails)).toBeTruthy();
   
 });

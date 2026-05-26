@@ -76,5 +76,5 @@ console.log(scrs.sort()) //this will not sort the elemnts in ascending order
 scrs.sort(function(a,b){ // minimum difference element will push to (need to work on bubble sorting )
     return a - b
 })
-console.log("=" * 60);
+console.log("=".repeat(60));
 console.log(scrs);
