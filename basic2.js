@@ -78,3 +78,4 @@ scrs.sort(function(a,b){ // minimum difference element will push to (need to wor
 })
 console.log("=".repeat(60));
 console.log(scrs);
+console.log("%".repeat(89));

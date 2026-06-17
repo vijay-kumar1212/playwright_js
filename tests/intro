@@ -33,3 +33,6 @@ test : "npx playwright test tests/webapipart1.spec.js --headed
 then apply a break point on the gutter area of test sscript
 the open command pallette using ctyrl shiif p call Debug npm script
  "test": "npx playwright test tests/webapipart1.spec.js --headed"
+
+ to verify the trace we need to upload our trace file on trace.playwright.dev
+ 

@@ -6,8 +6,7 @@ class ApiUtils // class name and file name should be same
     this.apiContext = apiContext
     this.loginPayload = loginPayload
     }
-    async getToken()
-    {
+    async getToken(){
     const login_response = await this.apiContext.post('https://rahulshettyacademy.com/api/ecom/auth/login',
       {
          data:this.loginPayload

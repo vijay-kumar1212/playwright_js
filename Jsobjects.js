@@ -35,7 +35,7 @@ for(let key in person)
 
 // in JS classes are introduced from ES6 earlier all the properties are hold in object.
 console.log('='.repeat(60));
-module.exports = class Person // to use this class elsewhere in any any ther file first we need to export it using modules.export then we can import this class where it required uisnf require key word
+module.exports = class Person // to use this class elsewhere in any where file first we need to export it using modules.export then we can import this class where it required uisnf require key word
 {
  age = 31
  // by using getter method also we can define the properites

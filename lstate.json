@@ -1,0 +1,1012 @@
+{
+  "cookies": [
+    {
+      "name": "sp",
+      "value": "b857fe72-dcd9-48d0-94fe-ca1a5fada59d",
+      "domain": "spcollector.itsfogo.com",
+      "path": "/com.snowplowanalytics.snowplow",
+      "expires": 1811329549.517321,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "X-AB",
+      "value": "9f64bba91d1b4d27aefc45e8773e7f5a",
+      "domain": "sc-static.net",
+      "path": "/scevent.min.js",
+      "expires": 1779879942.262809,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "c-a-v",
+      "value": "26.20.4.20511",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "isLanguageChanged",
+      "value": "false",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "lang",
+      "value": "en",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "browserfingerprint",
+      "value": "qCEEcfbO9nvk8Gm5FVQ4fciLTNJcAzjVWUWqwNNO%2F5I%3D",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1811329426.612254,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "vnSession",
+      "value": "db0d5662-21ad-4bac-b988-8be7f3e93fb2",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "usersettings",
+      "value": "cid%3Den-GB%26vc%3D1%26sst%3D2026-05-26T11%3A03%3A46.5388550Z%26psst%3D0001-01-01T00%3A00%3A00.0000000Z",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1814353426.612308,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "vn-ld-session",
+      "value": "db0d5662-21ad-4bac-b988-8be7f3e93fb2-1779793380",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1811329426.612348,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "vnCid",
+      "value": "db0d5662-21ad-4bac-b988-8be7f3e93fb2",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1811329426.612372,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "0NrIDtxefXcnGcQiQA0xVvIkKeE5ONhR6H_U_lsDB58-1779793426.4123292-1.0.1.1-A6OxJ8LN0LsvLu9UzIcIDOtcutB8ZBIF.oJ5xnRCgnVrwmCki6MOAH2BrKIRC20JdPIKOG7XeZrX2y1hOLuBRWrO64jN0q_D_GqfSVaC474xgDGE49SSg.xQeXbt2AiJ",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1779795226.612392,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "lA31fmjqSu85FS_njqBkP4JNEfUresgT_ZcFL_wcEFM-1779793426.897342-1.0.1.1-ttpcSJ13XM7Z0HbjrvM9z8d2qgJ3yGjeqLQpZyEhywpm0M8IKA7aGo7m5UJSy.KsNUTFPdjB4qpLpa3pE.y4zWhKEP3rZVZzL5vNUz.BGW880C0GzXb.HJGtH4TPIO6O",
+      "domain": ".itsfogo.com",
+      "path": "/",
+      "expires": 1779795226.91531,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "trc.cid",
+      "value": "77811c1e6d434b409053c93258223fea",
+      "domain": "www.ladbrokes.com",
+      "path": "/",
+      "expires": 1814353426.991467,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "deviceDetails",
+      "value": "%7B%22sr%22%3A%221280%2C%20720%7C1280%2C%20720%7C32%22%2C%22sse%22%3A%221%22%2C%22lse%22%3A%221%22%2C%22idbe%22%3A%221%22%2C%22hc%22%3A%2228%22%2C%22bl%22%3A%22en-US%22%2C%22host%22%3A%22www.ladbrokes.com%22%2C%22ua%22%3A%22Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F145.0.0.0%20Safari%2F537.36%22%2C%22tz%22%3A%22Asia%2FCalcutta%22%2C%22dt%22%3A%22mobileweb%22%2C%22ct%22%3A%22x64%22%2C%22dnt%22%3A%22%22%7D",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1811329544,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ldId",
+      "value": "ld-1779793427754",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1781867027,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "DAPROPS",
+      "value": "\"bS%3A0%7CscsVersion%3A2.7.2%7Cs_uaRef%3A_uaRef1687615688%7CbcanvasNoise%3A0%7CsdeviceAspectRatio%3A16%2F9%7CsdevicePixelRatio%3A1.0000000149011612%7Cbhtml.video.ap4x%3A0%7Cbhtml.video.av1%3A1%7Cbhtml.video.av1016M08%3A1%7Cbjs.deviceMotion%3A1%7Csjs.webGlRenderer%3AANGLE%20(Intel%2C%20Intel(R)%20UHD%20Graphics%20(0x0000A788)%20Direct3D11%20vs_5_0%20ps_5_0%2C%20D3D11)%7CimaxAudioChannelCount%3A2%7CsrendererRef%3A02977360532%7CsscreenWidthHeight%3A1280%2F720%7CishortestOpTime%3A72%7CiusableDisplayHeight%3A1280%7CiusableDisplayWidth%3A720%7Csch.bitness%3A64%7Csch.browserFullVersionList%3A%22Chromium%22%3Bv%3D%22145.0.7632.6%22%2C%20%22Not%20A-Brand%22%3Bv%3D%2299.0.0.0%22%7Csch.browserList%3A%22Chromium%22%3Bv%3D%22145%22%2C%20%22Not%20A-Brand%22%3Bv%3D%2299%22%7Csch.formFactors%3A%2522Desktop%2522%7Csch.model%3A%7Csch.platform%3A%22Windows%22%7Csch.platformVersion%3A%2219.0.0%22%7Csch.uaFullVersion%3A%2522145.0.7632.6%2522%7Cbch.wow64%3A0%7CsaudioRef%3A781311942%7CbsupportsWebGpu%3A1%7CswebGpuMaxBufferSize%3A2147483648%7CsanimationFrameRate%3AStandard%7CbE%3A0\"",
+      "domain": "www.ladbrokes.com",
+      "path": "/",
+      "expires": 1811329427,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "lastKnownProduct",
+      "value": "%7B%22url%22%3A%22https%3A%2F%2Fwww.ladbrokes.com%2Fen%2Fsports%22%2C%22name%22%3A%22ozone%22%2C%22previous%22%3A%22unknown%22%2C%22platformProductId%22%3A%22SPORTSBOOK%22%7D",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1782385428,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "tq",
+      "value": "%5B%5D",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.772080119.1779793438",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1814353549.72275,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "vn_ga_client_id",
+      "value": "772080119.1779793438",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1811329545,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "vn_ga_session_id",
+      "value": "1779793438",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1811329545,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "medallia-random-id",
+      "value": "15",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "shell#lang",
+      "value": "en",
+      "domain": "scmedia.ladbrokes.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "pBaM85T3K4qnnkQrK219RiYCdeor_A13C5kvovNqEeM-1779793441.130755-1.0.1.1-IeSl6M6..BV59.BAlbTuHayIfIenGwFsR3X9Y5hswCdVlCI_nQ9LVWIu6AXFpTdur1lv6BRk083.ttqVJhAFkRSfmC5ZksL9BGN7DE8pvrwGqwcnHvYGMaB_NateKgIW",
+      "domain": ".iivt.com",
+      "path": "/",
+      "expires": 1779795241.145982,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "clsd-p",
+      "value": "m2=modal_wc_do_not_touch_or_edit",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1811329531,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "OptanonAlertBoxClosed",
+      "value": "2026-05-26T11:05:41.748Z",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1811329541,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.2107616838.1779793542",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1787569542,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1779793542038.224758826949707686",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1787569565,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_scid",
+      "value": "s7Jt6fs2No7Gx-2Yc_MZFqvHKW9rarV1",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1814007942,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__adal_ses",
+      "value": "*",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1779795349,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__adal_ca",
+      "value": "so%3Ddirect%26me%3Dnone%26ca%3Ddirect%26co%3D%28not%2520set%29%26ke%3D%28not%2520set%29%26cg%3DDirect",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1795345542,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__adal_cw",
+      "value": "1779793542407",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1780398342,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "MUID",
+      "value": "291BAC9F92E76CC50DDFBBFA93556D94",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1813489542.553193,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MR",
+      "value": "0",
+      "domain": ".bat.bing.com",
+      "path": "/",
+      "expires": 1780398342.553283,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sc_at",
+      "value": "v2|H4sIAAAAAAAA/03GwRHAIAgEwIqYATxyajkCqcLi882+tsKcMBetJwTJkJMO6ZyVeNnseQ26jVxcIzDur/oBZLYjPkAAAAA=",
+      "domain": ".snapchat.com",
+      "path": "/",
+      "expires": 1813489543.52876,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "zuuid",
+      "value": "f32bd235-f644-4327-b40f-7e855a101f28",
+      "domain": ".sportradarserving.com",
+      "path": "/",
+      "expires": 1811243143.362829,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "c",
+      "value": "1779793543",
+      "domain": ".sportradarserving.com",
+      "path": "/",
+      "expires": 1811243143.224159,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "zuuid_lu",
+      "value": "1779793543",
+      "domain": ".sportradarserving.com",
+      "path": "/",
+      "expires": 1811243143.363039,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_sp_srt_ses.4692",
+      "value": "*",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1779795348,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "TapAd_TS",
+      "value": "1779793543276",
+      "domain": ".tapad.com",
+      "path": "/",
+      "expires": 1784977543.432246,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "TapAd_DID",
+      "value": "dbde4e67-6c1f-4c28-81f1-0051d5c76471",
+      "domain": ".tapad.com",
+      "path": "/",
+      "expires": 1784977543.432353,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "zuuid_k",
+      "value": "1",
+      "domain": ".sportradarserving.com",
+      "path": "/",
+      "expires": 1811243143.363078,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "zuuid_k_lu",
+      "value": "1779793543",
+      "domain": ".sportradarserving.com",
+      "path": "/",
+      "expires": 1811243143.363096,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "cm4",
+      "value": "!bidswitch=549122743",
+      "domain": ".sportradarserving.com",
+      "path": "/",
+      "expires": 1811243143.363114,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bss",
+      "value": "!bidswitch=549050743",
+      "domain": ".sportradarserving.com",
+      "path": "/",
+      "expires": 1811243143.363133,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "TapAd_3WAY_SYNCS",
+      "value": "",
+      "domain": ".tapad.com",
+      "path": "/",
+      "expires": 1784977543.43239,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_sctr",
+      "value": "1%7C1779733800000",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1814007943,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "c",
+      "value": "1779793543",
+      "domain": ".bidswitch.net",
+      "path": "/",
+      "expires": 1811329543.754431,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "tuuid_lu",
+      "value": "1779793543",
+      "domain": ".bidswitch.net",
+      "path": "/",
+      "expires": 1811329543.887068,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "tuuid",
+      "value": "5bbe144f-5bf6-4032-9ead-2490d1a4d019",
+      "domain": ".bidswitch.net",
+      "path": "/",
+      "expires": 1811329543.886989,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_scid_r",
+      "value": "zDJt6fs2No7Gx-2Yc_MZFqvHKW9rarV1PusmVQ",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1814007948,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_uetsid",
+      "value": "d6322a5058f211f1988ab1d1b0fd7fef",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1779879948,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_uetvid",
+      "value": "d63243a058f211f18de24d8e7ce8d796",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1813489548,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_sp_srt_id.4692",
+      "value": "4933ca17-3830-4402-9b14-297a40abddbd.1779793543.1.1779793548..74eda4b2-183d-4433-ac7e-840cbce70b26....0",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1814353548.191977,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "A3",
+      "value": "d=AQABBIx-FWoCEF_6iJLPxhLkW3CqsT9tF_MFEgEBAQHQFmofalkLiHsF_eMDAA&S=AQAAAkPr8jrp17oHsa2cs8J6bPI",
+      "domain": ".yahoo.com",
+      "path": "/",
+      "expires": 1811351148.195278,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_twpid",
+      "value": "tw.1779793548227.144688691977051148",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1813489565.42381,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "_sp_ses.4692",
+      "value": "*",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1779795360,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "slfp",
+      "value": "eyJ1dWlkIjoiNmYzNDJkODktOGVlYi00NThmLThmZWUtYTAxNDMyZjA1OWEw%0AIiwibmFtZSI6ImNnX2xhZGJyb2tlc191ayIsInRzIjoiMjAyNi0wNS0yNiAw%0AODowNTo0OCAtMDMwMCJ9%0A",
+      "domain": ".coolretargeting.com",
+      "path": "/",
+      "expires": 1782385548.406947,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "muc_ads",
+      "value": "d452b5d9-c866-47a7-82b8-d8a7920ff9ed",
+      "domain": ".t.co",
+      "path": "/",
+      "expires": 1814353548.525354,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "H2QUIoT6QQ5JNFo6X.3OmZuhuoKntWHwwrukO8fbBS0-1779793548.3226318-1.0.1.1-knWGyp9y7hpvnkAknsPPBC.dezUmhb6nMQ1uLDJJ.KBpHRyoz8MjbMIUKi0vnwyH0JDdPxl4dHDdF_kpQikt9ZDGTxE8mXMztrGToYwmaUdxA8nIKSJXIXloaoj36o.H",
+      "domain": ".t.co",
+      "path": "/",
+      "expires": 1779795348.52551,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "guest_id_marketing",
+      "value": "v1%3A177979354844608518",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1814353548.526505,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "guest_id_ads",
+      "value": "v1%3A177979354844608518",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1814353548.526579,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "personalization_id",
+      "value": "\"v1_I5H9We4tqbOnmxPJtNKLXw==\"",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1814353548.526611,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "guest_id",
+      "value": "v1%3A177979354844608518",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1814353548.526641,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "aUVJa2gItzt7J3KdyLIoRDMEjPENRRXcWu8BwPBz7fw-1779793548.320692-1.0.1.1-dsMnUKaRWY19OQrO5vv_obCDuHGcByy.17pfKbFhAFC3CNb9azJKxmbjJxaBRKE0QGzUOhKTAQ2hxzXFZ86XAShgeVGn3TcbHJb0Yna1xIvsWJo.OVxWfWE0530DGDRz",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1779795348.526672,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__user_id",
+      "value": "uid-9307509999.8333085714",
+      "domain": "www.ladbrokes.com",
+      "path": "/",
+      "expires": 1811329549,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OptanonConsent",
+      "value": "isGpcEnabled=0&datestamp=Tue+May+26+2026+16%3A35%3A49+GMT%2B0530+(India+Standard+Time)&version=202506.1.0&browserGpcFlag=0&isIABGlobal=false&consentId=4348642d-f4d2-43a0-abad-f670dba023fa&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0004%3A1%2CC0002%3A1%2CC0003%3A1&hosts=H1720%3A1%2CH685%3A1%2CH1075%3A1%2CH485%3A1%2CH85%3A1%2CH1718%3A1%2CH593%3A1%2CH1667%3A1%2CH151%3A1%2CH686%3A1%2CH722%3A1%2CH202%3A1%2CH720%3A1%2CH635%3A1%2CH1006%3A1%2CH275%3A1%2CH597%3A1%2CH1724%3A1%2CH336%3A1%2CH723%3A1%2CH349%3A1%2CH5%3A1%2CH6%3A1%2CH9%3A1%2CH1475%3A1%2CH17%3A1%2CH667%3A1%2CH21%3A1%2CH25%3A1%2CH1231%3A1%2CH33%3A1%2CH36%3A1%2CH44%3A1%2CH47%3A1%2CH392%3A1%2CH589%3A1%2CH58%3A1%2CH62%3A1%2CH65%3A1%2CH67%3A1%2CH72%3A1%2CH73%3A1%2CH81%3A1%2CH591%3A1%2CH84%3A1%2CH1471%3A1%2CH93%3A1%2CH100%3A1%2CH1191%3A1%2CH103%3A1%2CH649%3A1%2CH108%3A1%2CH116%3A1%2CH120%3A1%2CH127%3A1%2CH140%3A1%2CH480%3A1%2CH149%3A1%2CH150%3A1%2CH152%3A1%2CH515%3A1%2CH678%3A1%2CH155%3A1%2CH730%3A1%2CH158%3A1%2CH162%3A1%2CH169%3A1%2CH1229%3A1%2CH702%3A1%2CH179%3A1%2CH186%3A1%2CH188%3A1%2CH193%3A1%2CH196%3A1%2CH594%3A1%2CH204%3A1%2CH1184%3A1%2CH547%3A1%2CH219%3A1%2CH221%3A1%2CH225%3A1%2CH227%3A1%2CH386%3A1%2CH465%3A1%2CH703%3A1%2CH519%3A1%2CH238%3A1%2CH239%3A1%2CH241%3A1%2CH245%3A1%2CH246%3A1%2CH249%3A1%2CH253%3A1%2CH256%3A1%2CH586%3A1%2CH260%3A1%2CH261%3A1%2CH697%3A1%2CH263%3A1%2CH269%3A1%2CH270%3A1%2CH271%3A1%2CH668%3A1%2CH274%3A1%2CH276%3A1%2CH704%3A1%2CH277%3A1%2CH283%3A1%2CH284%3A1%2CH1202%3A1%2CH851%3A1%2CH298%3A1%2CH301%3A1%2CH302%3A1%2CH305%3A1%2CH467%3A1%2CH324%3A1%2CH325%3A1%2CH1105%3A1%2CH598%3A1%2CH329%3A1%2CH331%3A1%2CH1072%3A1%2CH333%3A1%2CH335%3A1%2CH337%3A1%2CH340%3A1%2CH1499%3A1%2CH351%3A1%2CH381%3A1%2CH1503%3A1%2CH353%3A1%2CH356%3A1%2CH359%3A1%2CH360%3A1%2CH599%3A1%2CH524%3A1%2CH525%3A1%2CH464%3A1%2CH1009%3A1%2CH1670%3A1%2CH513%3A1%2CH122%3A1%2CH138%3A1%2CH596%3A1%2CH1078%3A1%2CH282%3A1%2CH495%3A1%2CH322%3A1%2CH358%3A1%2CH20%3A1%2CH1467%3A1%2CH113%3A1%2CH132%3A1%2CH210%3A1%2CH517%3A1%2CH379%3A1%2CH493%3A1%2CH348%3A1%2CH350%3A1%2CH1716%3A1&genVendors=&intType=1&geolocation=IN%3BTG&AwaitingReconsent=false",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1811329549,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__adal_id",
+      "value": "d968ca5b-4a96-41e5-8172-30f4f188a291.1779793542.1.1779793549.1779793542.8143fadb-583a-40c3-8095-3b136fde72c6",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1814353549.431112,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_SM5BJ4XV8X",
+      "value": "GS2.1.s1779793438$o1$g1$t1779793548$j54$l0$h0",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1814353549.722077,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUkIII8VfB_ACnK55hOJOORWfP1mIkVcvDs0jpETYKy7DVEh_fkOSZCCEc5P",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1814353549.757343,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "hq",
+      "value": "%5B%7B%22name%22%3A%22homescreen%22%2C%22shouldShow%22%3Afalse%7D%5D",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1811329549,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "XANDR_PANID",
+      "value": "o1XIFqnKTTsgL8Wd0Owci-8keHS0id_vCHqfMgKl7c-D8ZrMECevFKiBzrSYLpGe6RFvsrsG3sNGG0TyPQDAvHZ7vwkRDBBxLRe_wYnmC1A.",
+      "domain": ".adnxs.com",
+      "path": "/",
+      "expires": 1787569550.196251,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://ladbrokes.com",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "uuid2",
+      "value": "4084104265206910551",
+      "domain": ".adnxs.com",
+      "path": "/",
+      "expires": 1787569550.196481,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "anj",
+      "value": "dTM7k!M4/8CxrEQF']wIg2C%ykFW*(!]tbP6j2F-XstGt!@DUe$eaqg",
+      "domain": ".adnxs.com",
+      "path": "/",
+      "expires": 1787569550.196439,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "t_gid",
+      "value": "5d58ca34-23d1-4663-b9e3-dec9ecf8e2c9-tuct110f0413",
+      "domain": ".taboola.com",
+      "path": "/",
+      "expires": 1811329558.743913,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "t_pt_gid",
+      "value": "5d58ca34-23d1-4663-b9e3-dec9ecf8e2c9-tuct110f0413",
+      "domain": ".taboola.com",
+      "path": "/",
+      "expires": 1811329558.744021,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://ladbrokes.com",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "mobileLogin.ReturnUrlFromLogin",
+      "value": "%22https%3A%2F%2Fwww.ladbrokes.com%2Fen%2Fsports%3Fq%3D1%22",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "mobileLogin.LastAttemptedVisitor",
+      "value": "%22Shaibuddin%22",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_sp_id.4692",
+      "value": "f7ccf29a-3da7-4656-a505-efde905f7772.1779793548.1.1779793561.1779793548.25ba2f85-fc4c-45ca-b025-c9ee30689df2",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1814353560.81994,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga_6D9WKZD1VL",
+      "value": "GS2.1.s1779793438$o1$g1$t1779793561$j41$l0$h0",
+      "domain": ".ladbrokes.com",
+      "path": "/",
+      "expires": 1814353561.175594,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_dd_s",
+      "value": "aid=90a772c5-aa0b-451c-b9c9-da0a2f0b77a0&rum=2&id=58d2bc5e-7e46-43e0-b3fc-8a7c5645d8ec&created=1779793427712&expire=1779794465406",
+      "domain": "www.ladbrokes.com",
+      "path": "/",
+      "expires": 1811329565,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Strict"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.ladbrokes.com",
+      "localStorage": [
+        {
+          "name": "85bdeae0a9e0dad7fdd022d8f90da5d3a241b3d0",
+          "value": "Windows 10"
+        },
+        {
+          "name": "u_sclid",
+          "value": "pxRQzbhyx3A0Oex58Snx2LEoHEMopkZns7Jt6fs2No7Gx-2Yc_MZFqvHKW9rarV1"
+        },
+        {
+          "name": "eng_mt",
+          "value": "{\"ver\":36,\"sessionStartTime\":1779793548205,\"scrollDepth\":0,\"sessionDepth\":[\"1947203084\"],\"timeOnSite\":0,\"crossSessionsData\":{\"sessionsHistory\":[1779793548205]},\"numOfTimesMetricsSent\":2}"
+        },
+        {
+          "name": "adal_out_queue_adalyserTracker_get",
+          "value": "[]"
+        },
+        {
+          "name": "_uetvid_exp",
+          "value": "Sun, 20 Jun 2027 11:05:48 GMT"
+        },
+        {
+          "name": "OX.existingUser",
+          "value": "false"
+        },
+        {
+          "name": "511a26f4be2047a348064e4abe8ce2a9",
+          "value": "2026-05-26T11:03:58.797Z"
+        },
+        {
+          "name": "_gcl_ls",
+          "value": "{\"schema\":\"gcl\",\"version\":1,\"gcl_ctr\":{\"value\":{\"value\":0,\"timeouts\":0,\"errors\":0,\"eopCount\":0,\"creationTimeMs\":1779793541961},\"expires\":1787569541961}}"
+        },
+        {
+          "name": "d0df7f0a4c2724ff587c1cfb3e315b432e2d1f50",
+          "value": "false"
+        },
+        {
+          "name": "19a826c7f361268a43da3a46a12047f3",
+          "value": "d70d0f83-6f4c-49eb-8c62-280a1d1a6a8c"
+        },
+        {
+          "name": "4ba302311571f45d57f1aa75e428b9b78d59a7a2",
+          "value": "desktop"
+        },
+        {
+          "name": "OX.USER",
+          "value": "{\"bppToken\":null,\"sessionToken\":null,\"username\":null,\"sportBalance\":null,\"sportBalanceWithSymbol\":null,\"pendingWithdrawals\":null,\"advertiser\":null,\"address\":null,\"accountBusinessPhase\":null,\"accountClosed\":false,\"maxStakeScale\":null,\"ageVerificationStatus\":null,\"birthDate\":\"\",\"cardNumber\":\"\",\"city\":\"\",\"countryCode\":null,\"currencySymbol\":\"£\",\"currency\":\"GBP\",\"custId\":\"\",\"email\":null,\"firstname\":null,\"firstNews\":null,\"lastname\":null,\"loginPending\":false,\"logoutPending\":false,\"oddsFormat\":\"frac\",\"pin\":null,\"playerCode\":null,\"playerDepositLimits\":null,\"postCode\":null,\"previousLoginTime\":null,\"profileId\":null,\"sessionLimit\":0,\"signupDate\":\"\",\"tcVersion\":null,\"vipLevel\":null,\"vipInfo\":null,\"contactPreferences\":null,\"payPalBA\":\"\",\"payPalDepositFraudNetScriptsLoaded\":false,\"firstLogin\":false,\"isTemporaryCard\":false,\"passwordResetLogin\":false,\"previouslyLogged\":false,\"quickDepositTriggered\":false,\"showBalance\":true,\"isRedirecting\":false,\"isSignUpPending\":false,\"showLogoutPopup\":true,\"status\":false,\"quickBetNotification\":true,\"timeline\":true,\"logInMessage\":[],\"winAlertsToggled\":false,\"lastBet\":\"\",\"bonusSuppression\":false}"
+        },
+        {
+          "name": "kampyle_userid",
+          "value": "89f6-65ca-18f3-4aaf-3a90-25f1-0b13-e06e"
+        },
+        {
+          "name": "ld:6838056fe1a8bc0fb0d78679:$diagnostics",
+          "value": "{\"dataSinceDate\":1779793428638,\"droppedEvents\":0,\"eventsInLastBatch\":0,\"streamInits\":[]}"
+        },
+        {
+          "name": "indexeddb_schema_version",
+          "value": "v8orxh"
+        },
+        {
+          "name": "0b006d8eb623b8ea11b73d61f1e483b47b9d7422",
+          "value": "Windows"
+        },
+        {
+          "name": "kampyleUserSessionsCount",
+          "value": "2"
+        },
+        {
+          "name": "lastExternalReferrer",
+          "value": "empty"
+        },
+        {
+          "name": "_uetvid",
+          "value": "d63243a058f211f18de24d8e7ce8d796"
+        },
+        {
+          "name": "OX.uuid",
+          "value": "\"f31995fc-591a-4255-85b6-01e97de40c57\""
+        },
+        {
+          "name": "OX.finishedEventIds",
+          "value": "null"
+        },
+        {
+          "name": "OX.softSerial",
+          "value": "\"758517\""
+        },
+        {
+          "name": "OX.rgy_data",
+          "value": "\"bnVsbA==\""
+        },
+        {
+          "name": "ld:65524abcd32b20129481e324:$diagnostics",
+          "value": "{\"dataSinceDate\":1779793438565,\"droppedEvents\":0,\"eventsInLastBatch\":0,\"streamInits\":[]}"
+        },
+        {
+          "name": "ld:659d0c5afb5feb0fc1d56c24:$diagnostics",
+          "value": "{\"dataSinceDate\":1779793428025,\"droppedEvents\":0,\"eventsInLastBatch\":0,\"streamInits\":[]}"
+        },
+        {
+          "name": "appInBGTimeStamp",
+          "value": "1779793543887"
+        },
+        {
+          "name": "_uetsid",
+          "value": "d6322a5058f211f1988ab1d1b0fd7fef"
+        },
+        {
+          "name": "kampyleUserSession",
+          "value": "1779793550897"
+        },
+        {
+          "name": "u_sclid_r",
+          "value": "sJRQzbhyx3A0Oex58Snx2LEoHEMopkZnvBEOF8wyben7NjaOxsftmHPzGRarxylva2q1dT7rJlU"
+        },
+        {
+          "name": "cpg_ldb_rH3YnD0_usr",
+          "value": "v0.1:12729880512:1779793549014:1779793549014"
+        },
+        {
+          "name": "lastExternalReferrerTime",
+          "value": "1779793548140"
+        },
+        {
+          "name": "host.rm-timestamp",
+          "value": "1779793543623"
+        },
+        {
+          "name": "990a6d8eb6cbb8ea44b73d21f1e473b43b9c74ea",
+          "value": "prod"
+        },
+        {
+          "name": "_uetsid_exp",
+          "value": "Wed, 27 May 2026 11:05:48 GMT"
+        },
+        {
+          "name": "647a3d19ac2647f361068a43df3a4da1",
+          "value": "d70d0f83-6f4c-49eb-8c62-280a1d1a6a8c"
+        },
+        {
+          "name": "kampyleSessionPageCounter",
+          "value": "2"
+        },
+        {
+          "name": "OX.bbHashIds",
+          "value": "[]"
+        },
+        {
+          "name": "aws.cognito.identity-id.eu-west-2:69c5eb81-6abc-4ce9-88cf-44346c17734d",
+          "value": "eu-west-2:ac5f6ea7-eeff-c723-b314-a8f6808153d8"
+        }
+      ]
+    },
+    {
+      "origin": "https://tr.snapchat.com",
+      "localStorage": [
+        {
+          "name": "u_sclid_r",
+          "value": "Kq3Jfb1QMj3c1eihNlBdfjKxhfMthLTEsQ4lyJEelaHDwjzCpqWBPssT4U4BQhc4"
+        },
+        {
+          "name": "u_sclid",
+          "value": "Kq3Jfb1QMj3c1eihNlBdfjKxhfMthLTEsQ4lyJEelaHDwjzCpqWBPssT4U4BQhc4"
+        }
+      ]
+    },
+    {
+      "origin": "https://8351338.fls.doubleclick.net",
+      "localStorage": [
+        {
+          "name": "ig-joined",
+          "value": "1779793550554"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.google.com",
+      "localStorage": [
+        {
+          "name": "rc::a",
+          "value": "MWlhZnV5bjFvczl4cXc="
+        },
+        {
+          "name": "rc::f",
+          "value": "0aAEc790LxD4avXSPpx34KsUTt5TNgdlyl9zC90QxO-s6I5M3EYgdk7Kn-y3z6c5U0d9hOj7c"
+        }
+      ]
+    }
+  ]
+}

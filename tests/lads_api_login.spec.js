@@ -1,36 +1,38 @@
-const {test, expect, request} = require('@playwright/test')
+const {test, expect} = require('@playwright/test')
 
 const login_payload = {password: "Lbr12345",
                        username:"shaibuddin"};
 
-let token;
-test.beforeAll(async ()=>
-{
-const api_context = await request.newContext();
-const resp = await api_context.post("https://www.ladbrokes.com/en/api/login", {data:login_payload,
-    headers:{
-" Content-Type": "application/json",
-  "Accept": "application/json",
-  "User-Agent": "Mozilla/5.0",
-  "Origin": "https://www.ladbrokes.com",
-  "Referer": "https://www.ladbrokes.com/"
-}
+let browserContext;
+test.beforeAll(async ({browser})=>{
+const context = await browser.newContext();
+const page = await context.newPage();
+await page.goto('https://host-app-f-sports-mn-virtual-edp-layout-fvt.int.ladbrokes.com/en/sports');
+const log_in_btn = page.locator('//span[contains(text(), "Login")]');
+await page.getByText('Let’s Go').first()
+// await page.locator(".cta desktop-only").click();
+await page.locator('id="onetrust-accept-btn-handler"').click();
+
+
+await log_in_btn.click();
+const user_name = page.locator('#userId');
+const password = page.locator('//input[@name="password"]');
+const login = page.locator('//span[contains(text(), " LOG IN ")]');
+await user_name.fill('Shaibuddin');
+await password.fill('Lbr12345');
+await expect(login).toBeEnabled();
+await login.click();
+await page.pause();
+await context.storageState({path: 'lstate.json'})
+browserContext = await browser.newContext({storageState:'lstate.json'});
 });
-expect(resp.ok()).toBeTruthy();
 
-console.log("Response object:", resp);
-console.log("Status:", resp.status());
-console.log("OK:", resp.ok());
 
-const loginResponse = await resp.json();
-token = loginResponse.token;
-console.log(token);
 
-});
 
-test('Ladbrokes login with api', async ({page})=>
+test('Ladbrokes login with api', async ()=>
 {
-await page.addInitScript(value => {window.localStorage.setItem('token', value)}, token)
-await page.goto('https://www.ladbrokes.com/en/sports')
+const page = await browserContext.newPage();
+await page.goto('https://host-app-release-host-app-26-21-0-beta.int.ladbrokes.com/en/sports');
 await page.pause();
 });
