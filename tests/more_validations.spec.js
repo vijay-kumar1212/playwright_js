@@ -28,4 +28,4 @@ await page.pause();
 test.only('verify visual test', async ({page})=> {
     await page.goto('https://flightware.com/');
     expect( await page.screenshot()).toMatchSnapshot('landing.png') // at first if we dont have expectd screenshot it will fail and create a required snapshot with test module name
-});
+}); // visual testing limitations of Playwright. https://playwright.dev/docs/api/class-testconfig#test-config-snapshot-path-template
