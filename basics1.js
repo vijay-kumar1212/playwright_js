@@ -18,19 +18,21 @@ let b = 47.89;
 const c = 89;
 console.log(a, b, c);
 console.log(typeof(c), typeof(b));
+
 /*
-We can't redeclare a variable with let keyword ut possible with var
+We can't redeclare a variable with let and const keyword but possible with var.
+
+We can reassign a value to a variable defined with let keyword but not with const keyword.
+
+If we define a variable with const keyword we can't reassign, it will remain constatnt throughout the script
 
 The commonly used data tyes in JS are number, string, boolean, null, undefined
-
-If we define a variable with const keyword we can't reassign it will remain constatnt throughout the script
-
 
 */
 
 let required = true;
 //  let b = 56 this will throw an error as let will not allow redeclaring 
-//If we define a variable with const keyword we can't reassign it will remain constatnt throughout the script
+
 b = 56 // reassigning is allowed with let var b = 78 also allowed
 console.log(required);
 // by using ! we can reverse the boolean values
