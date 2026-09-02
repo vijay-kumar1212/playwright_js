@@ -26,7 +26,7 @@ We can reassign a value to a variable defined with let keyword but not with cons
 
 If we define a variable with const keyword we can't reassign, it will remain constatnt throughout the script
 
-The commonly used data tyes in JS are number, string, boolean, null, undefined
+The commonly used data types in JS are number, string, boolean, null, undefined
 
 */
 
@@ -39,6 +39,8 @@ console.log(required);
 console.log(!required);
 
 const flag = true;
+
+
 if(!flag)
 {
 console.log('Condition Satisfied')
@@ -47,6 +49,8 @@ else
 {
 console.log('Condition not satisfied')
 }
+
+
 
 //while loop
 i = 0
