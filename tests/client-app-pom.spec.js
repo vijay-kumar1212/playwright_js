@@ -1,34 +1,43 @@
 const {test, expect} = require('@playwright/test');
+const {customtest} = require('../utils/test-base.js');
 const {LoginPage} = require('../pageobjects/LoginPage.js');
 const { DashboardPage } = require('../pageobjects/DashBoardPage.js');
 const { CheckoutPage } = require('../pageobjects/CheckoutPage.js');
+const testData = require("../utils/placeOrderTestData.json");
 
-test('client app login', async ({page})=> 
+
+/* To convert json object into string we use JSON.stringify() 
+and to convert string into json object we use JSON.parse()
+but here require() already parses .json files into a JavaScript object.
+*/
+
+// we can achieve parametrization by using for loop.
+
+for (const data of testData)
+    {
+test(`client app login ${data.productName}`, async ({page})=> 
     {
         const loginPage = new LoginPage(page);
         const dashboardPage = new DashboardPage(page);
         const checkoutPage = new CheckoutPage(page);
-        const email = "hv5217958@gmail.com";
-        const password = "Vikram@1805";
-        const productName = 'ZARA COAT 3';
         await loginPage.goTo();
-        await loginPage.validLogin(email, password);
-        await dashboardPage.searchProductAddToCart(productName);
+        await loginPage.validLogin(data.username, data.password);
+        await dashboardPage.searchProductAddToCart(data.productName);
         await dashboardPage.navigateToCart();
-        await checkoutPage.verifyAddedProductAndCheckout(productName);
-        
-                
-    
-    // //await page.pause();
-    // await page.locator("div li").first().waitFor();
-    // await expect(page.getByText("ZARA COAT 3")).toBeVisible();
-    
-    // await page.getByRole("button",{name :"Checkout"}).click();
-    
-    // await page.getByPlaceholder("Select Country").pressSequentially("ind");
-    
-    // await page.getByRole("button",{name :"India"}).nth(1).click();
-    // await page.getByText("PLACE ORDER").click();
-    
-    // await expect(page.getByText("Thankyou for the order.")).toBeVisible();
+        await checkoutPage.verifyAddedProductAndCheckout(data.productName);
+        await checkoutPage.placeOrderForIndia();
 });
+};
+
+// we can send test data as a fixture as well.
+
+customtest('client app login ', async ({page, testDataForOrder})=> 
+    {
+        const loginPage = new LoginPage(page);
+        const dashboardPage = new DashboardPage(page);
+        const checkoutPage = new CheckoutPage(page);
+        await loginPage.goTo();
+        await loginPage.validLogin(testDataForOrder.username, testDataForOrder.password);
+        await dashboardPage.searchProductAddToCart(testDataForOrder.productName);
+        await dashboardPage.navigateToCart();
+    });

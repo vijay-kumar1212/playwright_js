@@ -75,3 +75,37 @@ for(const key in student)
 {
     console.log(`${key}: ${student[key]}`); // here we are using backticks not single quotes as we are using template literals to print the key value pairs
 }
+
+
+// q4: Count the number of times a given number appears in an array using for...of loop?
+function count_given_numbers(arr, num)
+{
+    let count = 0;
+    for(const i of arr)
+    {
+        if(i === num)
+        {
+            count++;
+        }
+    }
+    return count;
+}
+console.log(count_given_numbers([1, 2, 3, 2, 5, 6, 1, 2, 3, 4, 5, 6], 2)); // this will return 2 as there are two 2s in the array
+
+
+//  write program that computes the greatest common divisor (GCD) of two positive integers.
+function computeGcd(a, b)
+{
+    let min = Math.min(a, b);
+    let gcd = 1;
+    for(let i = 1; i <= min; i++)
+    {
+        if(a % i === 0 && b % i ===0 && gcd <= i)
+        {
+            gcd = i;
+        }
+    }
+    return gcd
+}
+
+console.log(computeGcd(12, 18)); // this will return 6 as the GCD of 12 and 18 is 6

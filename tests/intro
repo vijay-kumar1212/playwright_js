@@ -30,7 +30,7 @@ for debugging npx playwright test file name --dubug this will run the test in de
 to debug api related code we need to set a property in script section in package json file as below
 
 test : "npx playwright test tests/webapipart1.spec.js --headed
-then apply a break point on the gutter area of test sscript
+then apply a break point on the gutter area of test script
 the open command pallette using ctyrl shiif p call Debug npm script
  "test": "npx playwright test tests/webapipart1.spec.js --headed"
 

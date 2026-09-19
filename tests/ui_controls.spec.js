@@ -32,6 +32,7 @@ const [newpage] = await Promise.all(
 [context.waitForEvent('page'), // listen for amy new page pending , rejected, fulfilld
 documentLink.click(),   // new page will be initiated this will be after defining the listener context.waitforevent
 ])
+page.bringToFront();
 
 const text = await newpage.locator('.red').textContent();
 console.log(text);

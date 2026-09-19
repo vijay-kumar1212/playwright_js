@@ -28,7 +28,7 @@ test('verify calender', async ({browser})=>
      }
      await prev_year.click();
     }
-    const month_name = await await month.nth(Number(monthNumber) - 1).textContent();
+    const month_name =  await month.nth(Number(monthNumber) - 1).textContent();
     await month.nth(Number(monthNumber) - 1).click();
 
     
